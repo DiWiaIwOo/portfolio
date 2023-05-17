@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+}
+body {
+    /* background-image: url(""); */
+    background: linear-gradient(rgba(0 0 0/0.5), rgba(0 0 0/0.5)), url('https://r4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-4bb67cfd2391ef49d5148b291dcc5cf0.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#trigger1 {
+    color: white;
+    display: flex;
+    transition: 0.1s;
+}
+#trigger2 {
+    color: white;
+    display: flex;
+    transition: 0.1s;
+}
+#trigger1:hover {
+    font-weight: bold;
+    animation: chroma;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+}
+#trigger2:hover {
+    font-weight: bold;
+    animation: chroma;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+}
+#trigger1:hover ~ #yingyang {
+    transform: rotate(90deg);
+}
+#trigger2:hover ~ #yingyang {
+    transform: rotate(-90deg);
+}
+#yingyang {
+    position: absolute;
+    transition: 0.3s;
+    animation: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.rotating {
+    display: flex;
+    justify-content: space-around;
+}
+.rotating > .choice > a {
+    text-decoration: none;
+    color: white;
+}
+.rotating > .choice > a:hover {
+    animation: chroma;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.head {
+    color: rgba(245, 245, 245, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: whitesmoke;
+    font-size: 75px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin-top: 1em;
+}
+.header {
+    display: inline-block;
+    margin: 0;
+}
+.header > p > a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    transition: 0.1s;
+    justify-content: center;
+}
+.header > p > a:hover {
+    font-weight: bold;
+    animation: chroma;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+}
+.pagelink {
+    padding: 1em;
+    display: flex;
+    margin-left: 4em;
+    justify-content: space-between;
+}
+@keyframes chroma {
+    0% {
+        color: rgb(230, 58, 58);
+    }
+    20% {
+        color: rgb(255, 182, 47);
+    }
+    40% {
+        color: rgb(255, 255, 57);
+    }
+    60% {
+        color: greenyellow;
+    }
+    80% {
+        color: rgb(70, 70, 246);
+    }
+    100% {
+        color: rgb(209, 17, 107);
+    }
+}
+#homeicon {
+    width: 2em;
+    margin: 0;
+    position: sticky;
+    top: 1em;
+    left: 1em;
+    transition: 0.2s;
+    display: flex;
+}
+#homeicon:hover {
+    width: 4em;
+}
+#madagascar {
+    width: 50vw;
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 30;
+    right: 10vw;
+    border-radius: 0.2em;
+    transition: 0.5s;
+}
+#behind1:hover + #madagascar{
+    opacity: 1;
+}
+#think {
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+    border-radius: 0.2em;
+    transition: 0.5s;
+}
+#behind2:hover + #think{
+    opacity: 1;
+}
+#waveimg {
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+    border-radius: 0.2em;
+    width: 50%;
+    height: 70%;
+    transition: 0.5s;
+}
+#behind3:hover + #waveimg{
+    opacity: 1;
+}
+#drama {
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+    border-radius: 0.2em;
+    width: 50%;
+    height: 70%;
+    transition: 0.5s;
+}
+#behind4:hover + #drama{
+    opacity: 1;
+}
+#mepic {
+    width: 40vw;
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+    border-radius: 0.2em;
+    transition: 0.5s;
+}
+#behind5:hover + #mepic{
+    opacity: 1;
+}
+#scoreBoard {
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+    border-radius: 0.2em;
+    width: 50%;
+    height: 70%;
+    transition: 0.5s;
+}
+#behind6:hover + #scoreBoard{
+    opacity: 1;
+}
+#typing {
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+    border-radius: 0.2em;
+    width: 50%;
+    height: 70%;
+    transition: 0.5s;
+}
+#behind7:hover + #typing{
+    opacity: 1;
+}
+#robot {
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+    border-radius: 0.2em;
+    width: 50%;
+    height: 70%;
+    transition: 0.5s;
+}
+#behind8:hover + #robot{
+    opacity: 1;
+}
+#music {
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+    border-radius: 0.2em;
+    width: 50%;
+    height: 70%;
+    transition: 0.5s;
+}
+#behind9:hover + #music{
+    opacity: 1;
+}
+#sonic {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 5%;
+    animation: runn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes runn {
+    0% {
+        transform: translateX(-20vw);
+    }
+    98% {
+        transform: translateX(110vw);
+    }
+}

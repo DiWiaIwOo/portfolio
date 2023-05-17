@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+body {
+    /* background-image: url(""); */
+    background: linear-gradient(rgba(0 0 0/0.5), rgba(0 0 0/0.5)), url('https://r4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-4bb67cfd2391ef49d5148b291dcc5cf0.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.head {
+    color: rgba(245, 245, 245, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: whitesmoke;
+    font-size: 75px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin-top: 1em;
+}
+#homeicon {
+    width: 2em;
+    margin: 0;
+    position: sticky;
+    top: 1em;
+    left: 1em;
+    transition: 0.2s;
+}
+#homeicon:hover {
+    width: 4em;
+}
+#evanface {
+    width: 40%;
+    margin: 1em;
+    position: absolute;
+    left: 10%;
+}
+.lists {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 55%;
+    margin-top: 10%;
+    margin-bottom: auto;
+}
+.lists > li {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    transition: 50ms;
+}
+.lists > li:hover {
+    font-size: 50px;
+}
+#fatdiv {
+    width: 300px;
+}

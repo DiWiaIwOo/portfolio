@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgba(255, 255, 255, 0.9);
+}
+h1 {
+    font-size: 75px; 
+    color: #18b699;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4GZeX9qwJaN7oTgrB4l718UO6p65ItuQInw&usqp=CAU");
+    background-blend-mode: color-burn;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+.mada {
+    color: #fb00ff;
+    font-size: 100px;
+}
+img {  
+    margin: 50px
+}    
+.wee {
+    font-size: 30px;
+    color: #4a2fe4;
+}
+.ahh{
+    font-size: 10;
+    font-family: cursive;
+    color: rgb(255, 208, 0)
+}
+a {
+    color: #18b699;
+    text-decoration: none;
+    margin: 50px
+}
+p {
+    margin: 50px;
+}
+#homeicon {
+    width: 2em;
+    margin: 0;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    transition: 0.2s;
+}
+#homeicon:hover {
+    width: 4em;
+}

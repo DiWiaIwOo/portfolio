@@ -1,0 +1,111 @@
+body {
+    background-color: #000000;
+}
+h1 {
+    color: #0a0a0a;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #f800d7;
+    font-size: 50px;
+}
+.HUGE {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+.big {
+    background-color: #2a2b2d;
+    display: flex;
+    height: 14em;
+    width: 500px;
+    padding: 2px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    border: 3px solid #f800d7;
+    border-radius: 0.5em;
+    justify-content: space-around;
+    align-items: center;
+
+}
+p {
+    text-align: center;
+}
+.up {
+    background-color: #d9514e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 20%;
+    height: 80%;
+    color: white;
+    border-radius: 0.5em;
+    flex-wrap: wrap;
+}
+.description {
+    display: flex;
+    background-color: violet;
+    width: 60%;
+    height: 80%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+.time {
+    font-size: 10px;
+    margin: 0.5em;
+}
+#stonks {
+    background-image: url(https://compote.slate.com/images/926e5009-c10a-48fe-b90e-fa0760f82fcd.png?crop=680%2C453%2Cx0%2Cy0&width=1280);
+    background-size: cover;
+    background-position: center;
+}
+#gordan {
+    background: linear-gradient(rgba(0 0 0/ 0.5), rgba(0 0 0/ 0.5)), url("https://imgflip.com/s/meme/Chef-Gordon-Ramsay.jpg");
+    background-size: cover;
+}
+#becker {
+    background: linear-gradient(rgba(0 0 0/ 0.5), rgba(0 0 0/ 0.5)), url("https://i.ytimg.com/vi/TCbUS6h6tEE/hq720_2.jpg?sqp=-oaymwEkCJYDENAFSFryq4qpAxYIARUAAAAAJQAAyEI9AICiQ3gB0AEB&rs=AOn4CLBSHgTd-sCaSTyvqBVfpk4ylBF2ww");
+    background-size: cover;
+}
+#messi {
+    background: linear-gradient(rgba(0 0 0/ 0.5), rgba(0 0 0/ 0.5)), url("https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkyODQzNDMxOTA1NjAxMjMy/lionel-messi.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#liu {
+    background: linear-gradient(rgba(0 0 0/ 0.5), rgba(0 0 0/ 0.5)), url("https://media.discordapp.net/attachments/885481943444119613/1032111463223017483/386BD8D3-1FBD-4BC4-A607-55FFCCC1C2D3.jpg?width=525&height=700");
+    background-size: cover;
+
+}
+#max {
+    background: linear-gradient(rgba(0 0 0/ 0.5), rgba(0 0 0/ 0.5)), url("https://www.egconf.com/sites/the-eg/files/Maven-Max.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#money {
+    background: linear-gradient(rgba(0 0 0/ 0.5), rgba(0 0 0/ 0.5)), url("https://vmsseaglescall.org/wp-content/uploads/2019/10/Screen-Shot-2019-10-25-at-11.22.36-AM.png");
+    background-size: cover;
+    background-position: center;
+}
+#fish {
+    background: linear-gradient(rgba(0 0 0/ 0.5), rgba(0 0 0/ 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg/800px-Michael_Phelps_Rio_Olympics_2016.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#homeicon {
+    width: 2em;
+    margin: 0;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    transition: 0.2s;
+    border: 2px solid violet;
+    background-color: #2a2b2d;
+}
+#homeicon:hover {
+    width: 4em;
+}
